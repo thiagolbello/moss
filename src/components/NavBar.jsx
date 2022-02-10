@@ -11,6 +11,7 @@ import Avatar from '@mui/material/Avatar';
 import Button from '@mui/material/Button';
 import Tooltip from '@mui/material/Tooltip';
 import MenuItem from '@mui/material/MenuItem';
+import { Link } from 'react-router-dom';
 
 const pages = ['Inventar', 'Invertir', '¿Quiénes somos?'];
 const settings = ['Perfil', 'Configuración', 'Contáctanos', 'Logout'];
@@ -35,17 +36,12 @@ const NavBar = () => {
   };
 
   return (
-    <AppBar position="static" style={{borderBottomLeftRadius: 1 + 'em', borderBottomRightRadius: 1 + 'em'}}>
+    <AppBar position="sticky" style={{borderBottomLeftRadius: 1 + 'em', borderBottomRightRadius: 1 + 'em'}} color="c5">
       <Container maxWidth="xl">
         <Toolbar disableGutters>
-          <Typography
-            variant="h6"
-            noWrap
-            component="div"
-            sx={{ mr: 2, display: { xs: 'none', md: 'flex' } }}
-          >
-            LOGO
-          </Typography>
+          <Link to="/" style={{ color: 'black', textDecoration: 'none' }}><Typography variant="h6" noWrap component="div" sx={{ mr: 2, display: { xs: 'none', md: 'flex' } }} >
+            MOSS
+          </Typography></Link>
 
           <Box sx={{ flexGrow: 1, display: { xs: 'flex', md: 'none' } }}>
             <IconButton
@@ -54,7 +50,7 @@ const NavBar = () => {
               aria-controls="menu-appbar"
               aria-haspopup="true"
               onClick={handleOpenNavMenu}
-              color="inherit"
+              color="c1"
             >
               <MenuIcon />
             </IconButton>
@@ -83,23 +79,13 @@ const NavBar = () => {
               ))}
             </Menu>
           </Box>
-          <Typography
-            variant="h6"
-            noWrap
-            component="div"
-            sx={{ flexGrow: 1, display: { xs: 'flex', md: 'none' } }}
-          >
-            LOGO
+          <Typography variant="h6" noWrap component="div" sx={{ flexGrow: 1, display: { xs: 'flex', md: 'none' } }}>
+            MOSS
           </Typography>
           <Box sx={{ flexGrow: 1, display: { xs: 'none', md: 'flex' } }}>
             {pages.map((page) => (
-              <Button
-                key={page}
-                onClick={handleCloseNavMenu}
-                color="secondary"
-                sx={{ my: 2, display: 'block' }}
-              >
-                {page}
+              <Button key={page} onClick={handleCloseNavMenu} color="black" sx={{ my: 2, display: 'block' }} >
+              <Link to={`/${page}`} style={{ color: 'black', textDecoration: 'none'}}>{page}</Link>
               </Button>
             ))}
           </Box>
