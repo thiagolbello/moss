@@ -1,6 +1,3 @@
-
-![Logo](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/th5xamgrr6se0x5ro4g6.png)
-
 # MOSS
 
 Una página creada para llevar acabo aquellos proyectos que fueron olvidados por falta de recursos o conocimiento.
