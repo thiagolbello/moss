@@ -12,7 +12,7 @@ Una página creada para llevar acabo aquellos proyectos que fueron olvidados por
  - [JavaScript](https://www.javascript.com/)
  - [React](https://reactjs.org/)
  - [Material UI](https://mui.com/)
-## Authors
+## Autores
 
 - Thiago López Bello
 - Valentín Provost
