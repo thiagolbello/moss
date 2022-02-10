@@ -1,0 +1,10 @@
+{
+  "files": {
+    "main.js": "/moss/static/js/main.77072050.js",
+    "index.html": "/moss/index.html",
+    "main.77072050.js.map": "/moss/static/js/main.77072050.js.map"
+  },
+  "entrypoints": [
+    "static/js/main.77072050.js"
+  ]
+}
