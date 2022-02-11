@@ -19,6 +19,9 @@ Una página creada para llevar acabo aquellos proyectos que fueron olvidados por
 
 | Colores Utilizados            | Hex                                                                |
 | ----------------- | ------------------------------------------------------------------ |
-| Primary | ![#fff](https://via.placeholder.com/10/ffffff?text=+) #fff |
-| Secondary | ![#3f7e2c](https://via.placeholder.com/10/3f7e2c?text=+) #3f7e2c |
+| c1 | ![#CCD5AE](https://via.placeholder.com/10/CCD5AE?text=+) #fff |
+| c2 | ![#E9EDC9](https://via.placeholder.com/10/E9EDC9?text=+) #3f7e2c |
+| c3 | ![#FEFAE0](https://via.placeholder.com/10/FEFAE0?text=+) #3f7e2c |
+| c4 | ![#FAEDCD](https://via.placeholder.com/10/FAEDCD?text=+) #3f7e2c |
+| c5 | ![#D4A373](https://via.placeholder.com/10/D4A373?text=+) #3f7e2c |
 
